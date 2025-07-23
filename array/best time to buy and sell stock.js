@@ -12,7 +12,6 @@ function Maxprofit(prices) {
         }
     }
     return maxprofit;
-
 }
 let prices = [3,1,5,6,9, 8,1];
 let res = Maxprofit(prices);
