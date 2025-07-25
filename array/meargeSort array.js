@@ -1,5 +1,5 @@
 
-let nums1 = [1, 2, 3];
+let nums1 = [1, 2, 3, 0, 0, 0];
 let nums2 = [2, 4, 5];
 
 function MeargeArray(nums1, m, nums2, n) {
@@ -18,7 +18,7 @@ function MeargeArray(nums1, m, nums2, n) {
             p2++
         }
     }
-    console.log(nums1[i])
+    console.log(nums1);
 }
 
-
+MeargeArray(nums1, 3, nums2, 3);
