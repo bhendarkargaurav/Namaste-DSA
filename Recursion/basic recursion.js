@@ -5,7 +5,6 @@
 //     print(--n);  // n = n-1
 //                  // print(n);
 // }
-
 // let a = 10;
 // print(a);
 
@@ -19,6 +18,5 @@ function print(n) {
     print(++n);  // n = n-1
                  // print(n);
 }
-
 let a = 1;
 print(a);
