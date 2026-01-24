@@ -13,7 +13,6 @@ console.log(arr1[3][1]);
 
 
 // let obj = {
-//     //key value pair
 //     a: 7,
 //     name: " Gaurav",
 //     lastname: "Bhendarkar"

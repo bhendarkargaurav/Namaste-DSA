@@ -17,24 +17,23 @@
 
 
 // find all -ve number and count it
-// function negativenumber(arr){
-//     let count = 0;
-//     let result = [];
-    
-//     for(let i=0; i<arr.length; i++){
-//         if(arr[i] <0){
-//             count++
-//             result.push(arr[i]) 
-//         }
-//     }
-//     return {result, count};
-    
-// }
 
-// let arr = [-12, 23, -4, 23, -54, 65];
+function negativenumber(arr) {
+    let count = 0; 
+    let result = [];
+    for(let i=0; i<arr.length; i++) {
+        if(arr[i] < 0) {
+            count ++;
+            result.push(arr[i]);
+        }
+    }
+    return { result, count};
+}
 
-// let negativenumbers = negativenumber(arr);
-// console.log(negativenumbers)
+let arr = [-12, 23, -4, 23, -54, 65];
+
+let negativenumbers = negativenumber(arr);
+console.log(negativenumbers)
 
 
 
@@ -93,3 +92,18 @@
 // let res = smallestelemet(arr);
 // console.log(res);
 
+
+
+// function searchElement(arr, x) {
+//     for(let i=0; i<arr.length; i++) {
+//         if(arr[i] == x) {
+//             const result = i;
+//             return result
+//         }
+//     }
+//     return -1;
+// }
+// let arr = [ 5, 10, 15, 20, 25];
+// let x = 16;
+// let element = searchElement(arr, x);
+// console.log(element);

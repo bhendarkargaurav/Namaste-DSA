@@ -14,20 +14,31 @@
 // }
 
 
-function loop(a){
-    // let a = 10
-    for(let i=0; i<a; i++){
-        console.log(i);
-    }
+// function loop(a){
+//     // let a = 10
+//     for(let i=0; i<a; i++){
+//         console.log(i);
+//     }
+// }
+// let a = 10
+// loop(a);
+
+
+// //while loop
+// let i=0;
+// while(i<5){
+//     console.log(i)
+//     i++;
+// }
+
+
+//reverse loop
+for(let i=5; i>0; i--) {
+    console.log("hey",i);
 }
-let a = 10
-loop(a);
 
-
-//while loop
-let i=0;
-while(i<5){
-    console.log(i)
-    i++;
+let i=0
+while(i<=5) {
+    console.log("hii" , i);
+    i++
 }
-

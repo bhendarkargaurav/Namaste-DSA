@@ -37,10 +37,10 @@ eligibletovote(50);
 function isEvenOdd(num){
     //to do
     if(num %2 == 0){
-        console.log(num,"Even Number");
+        console.log(num,"is Even Number");
     }
     else{
-        console.log(num, "Odd Number");
+        console.log(num, "is Odd Number");
     }
 }
 
