@@ -1,3 +1,10 @@
+// how it work
+
+// rev = 43
+// rem = 2
+// rev = (10 * 43) + 2
+// rev = 430 + 2
+// rev = 432
 
 function isPalindrom(x){
     if(x<0){
@@ -7,10 +14,12 @@ function isPalindrom(x){
 
     let rev = 0;
     while(x > 0){
-        rem = x % 10;
-        rev = (10*rev) + rem;
-        x = Math.floor(x / 10);
+        let rem = x % 10;          // get last digit
+        rev = (10*rev) + rem;   // shift rev left & add digit
+        x = Math.floor(x / 10); // remove last digit from x
     }
+
+   
     if(xCopy===rev) {
         return true;
     }
