@@ -46,6 +46,8 @@ console.log(negativenumbers)
 
 //     console.log(sortedarr)
 //     let largestelement = sortedarr[sortedarr.length-1]
+        // explian: sortedarr.length-1 = last digit
+        // sortedarr[lastdigit];
 //     return largestelement;
 // }
 

@@ -42,3 +42,13 @@ while(i<=5) {
     console.log("hii" , i);
     i++
 }
+
+
+
+let n=2
+let m = 3;
+for (let i = 0; i < n; i++) {
+    for (let j = 0; j < m; j++) {
+        console.log(i, j);
+    }
+}

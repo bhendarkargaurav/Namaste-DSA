@@ -49,4 +49,21 @@ isEvenOdd(num);
 
 
 
+//diff return and console.log
 
+function add(a, b) {
+    console.log("add is ",a + b);
+    return a+b
+}
+
+let result = add(2, 3);
+console.log(result); // undefined
+
+
+function test() {
+    console.log("A");
+    return;
+    console.log("B");
+}
+
+test();
