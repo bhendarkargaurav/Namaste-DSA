@@ -1,14 +1,16 @@
-// reverse a dtring which in arr: NOT A COMPLE STRING like e.g "Gaurav";
+// reverse a string which in arr: NOT A COMPLE STRING like e.g "Gaurav";
+// reverse the string in place with same arr: with o(1) SC.
 
 let a = ["G", "a", "u", "r", "a", "v"];
 
-let len = a.length;
-let halflen = len / 2;
+let length = a.length;
+// console.log(length)
+let halflength = Math.floor(length / 2);
 
-for(let i=0; i<halflen; i++) {
-    let temp = 0;
-    temp = a[i];
-    a[i] = a[len - 1 - i];
-    a[len - 1 - i] = temp;
+for(let i=0; i<halflength; i++) {
+    // let swapping
+    let temp = a[i];
+    a[i] = a[length-1-i];
+    a[length-1-i] = temp
 }
-console.log(a);
+console.log(a)

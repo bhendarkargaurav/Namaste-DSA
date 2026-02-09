@@ -47,6 +47,6 @@ function ReverseInt(x) {
 }
 
 
-let Intnum = -12345;
+let Intnum = 120;
 let res = ReverseInt(Intnum);
 console.log(res);
