@@ -24,3 +24,4 @@ let s = "egg";
 let t = "adg";
 let isomorphic = isIsomorphic(s,t);
 console.log(isomorphic)
+console.log("hii")
