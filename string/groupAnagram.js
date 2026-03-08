@@ -30,17 +30,20 @@ var groupAnagrams = function(strs) {
     for (let i = 0; i < strs.length; i++) {
 
         let freqArr = Array(26).fill(0);
+    
         let s = strs[i];
 
         for (let j = 0; j < s.length; j++) {
             let index = s[j].charCodeAt() - 'a'.charCodeAt();
+            console.log("index is ", index);
             freqArr[index]++;
+            console.log("freqArray is", freqArr);
         }
 
         let key = "";
 
         for (let k = 0; k < 26; k++) {
-            key += String.fromCharCode(k + 'a'.charCodeAt()) + freqArr[k];
+            key = String.fromCharCode(k + 'a'.charCodeAt()) + freqArr[k];
         }
 
         if (!map[key]) {
